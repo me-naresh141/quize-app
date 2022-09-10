@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styleSheet/style.css" />
+    <title>quize-app</title>
+  </head>
+  <body>
+    <header>
+      <div class="container flex justify-between">
+        <div>
+          <h1>quize-app</h1>
+        </div>
+        <div>
+          <p>
+            score 🍃
+            <span class="score">0</span>
+          </p>
+        </div>
+      </div>
+    </header>
+    <!-- main -->
+    <main>
+      <div class="container">
+        <div class="overlay">
+          <p class="instrection">
+            <span>user Instruction .</span>
+            you can select one option only.
+            <br />
+            <span>2.</span>
+            choose options carefully.
+          </p>
+
+          <button class="start"><p>start</p></button>
+        </div>
+        <div class="appBox">
+          <div class="question-div">
+            <p class="question">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
+              voluptatem neque optio, consequatur amet harum minus aspernatur
+              assumenda ipsum voluptate expedita aut quae quam quis nulla libero
+              rem error totam?
+            </p>
+            <div class="question-count-div flex justify-center align-center">
+              <p>
+                <span class="que-count">0</span>
+                /10
+              </p>
+            </div>
+          </div>
+          <!-- option-div -->
+          <div class="">
+            <div class="option-div option-div1">
+              <p class="opetionA">
+                <span>A.</span>
+                option
+              </p>
+            </div>
+            <div class="option-div option-div2">
+              <p class="opetionB">
+                <span>B.</span>
+                option
+              </p>
+            </div>
+            <div class="option-div option-div3">
+              <p class="opetionC">
+                <span>C.</span>
+                option
+              </p>
+            </div>
+            <div class="option-div option-div4">
+              <p class="opetionD">
+                <span>D.</span>
+                option
+              </p>
+            </div>
+          </div>
+          <!-- button-div -->
+          <div class="button-div flex justify-between">
+            <button class="btn back-btn">restart</button>
+            <button class="btn submit-btn">check score</button>
+            <button class="btn next-btn">next</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./data.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
